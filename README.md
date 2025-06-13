@@ -9,7 +9,5 @@ Sistema de pagos integrado con Khipu que permite procesar transacciones de forma
 ## 🚀 Características
 
 - ✅ Integración completa con API Khipu v3
-- ✅ Interfaz web responsive
 - ✅ Botón oficial de Khipu
-- ✅ Manejo de errores completo
 - ✅ Páginas de confirmación y cancelación
