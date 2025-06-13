@@ -28,3 +28,19 @@ Sistema de pagos integrado con Khipu que permite procesar transacciones de forma
 - ✅ Integración completa con API Khipu v3
 - ✅ Botón oficial de Khipu
 - ✅ Páginas de confirmación y cancelación
+
+
+
+### **Flujo del Usuario (Experiencia del Cliente):**
+1. **Cliente ingresa datos**: Monto y descripción del pago
+2. **Se crea el pago**: La aplicación contacta a Khipu con los datos
+3. **Redirección segura**: El cliente va a la página de Khipu para pagar
+4. **Confirmación**: Regresa a nuestra app con el resultado (éxito/cancelación)
+
+### **Componentes Técnicos Clave:**
+- **API REST**: Comunicación con Khipu usando su API v3
+- **Autenticación**: API Key para validar las peticiones
+- **URLs de retorno**: Para manejar éxito y cancelación
+- **Manejo de errores**: Validaciones y mensajes claros al usuario
+
+
